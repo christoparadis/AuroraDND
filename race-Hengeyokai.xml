@@ -90,7 +90,7 @@
 		</rules>
 	</element>
 
-	<element name="Tanuki (Racoon Dog)" type="Sub Race" source="Christo’s Handbook" id="ID_SUB_RACE_TANUKI_HENGEYOKAI">
+	<element name="Tanuki (Racoon Dog)" type="Sub Race" source="Christo’s Handbook" id="ID_RACIAL_TRAIT_HENGEYOKAI_SUBRACE">
 		<supports>Tanuki</supports>
 		<description>
 			<p>Tanuki are raccoons that live in clans in the forest and elect a leader called the "Great Tanuki" to oversee the clan's land and organize its members. While the most jovial of the hengeyokai, they are also the most vicious. Elections for the overseer position often break down into faction conflict between rival families, which usually end with one family is completely eliminated. However, when not at war, tanuki enjoy drinking, playing pranks on humans and, in general, having a good time.</p>
