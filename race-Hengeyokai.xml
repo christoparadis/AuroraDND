@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-	<info>
+	info>
 		<name>Hengeyokai</name>
 		<author url="">Wizards of the Christo</author>
+		        <author url="https://www.genfantasypress.com/about-the-compendium">Genuine Free Press</author>
+        <update version="0.0.1">
+			<file name="race-Hengeyokai.xml" url="https://raw.githubusercontent.com/christoparadis/AuroraDND/main/race-Hengeyokai.xml" />
+		</update>
 	</info>
 
 	<element name="Hengeyokai" type="Race" source="Christo’s Handbook" id="ID_SRD_RACE_HENGEYOKAI">
