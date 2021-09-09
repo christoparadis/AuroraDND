@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Hengeyokai</name>
+		<author url="">Wizards of the Christo</author>
+	</info>
+
+	<element name="Hengeyokai" type="Race" source="Christo’s Handbook" id="ID_SRD_RACE_HENGEYOKAI">
+		<description>
+			<p class="flavor">No one knew how the phantom thief Goyo Tazune broke through the Daimyo's securest vault, nor how he escaped from the most secure prisons of the province. Only on his execution day was his secret revealed. When the blade came down on the neck of an old greying man, there was a sudden puff of smoke and he was gone, replaced by an old fox that scurried off into the forest. And he has never been seen since.</p>
+			<h4>Physical Description</h4>
+			<p>Hengeyokai are animals that have lived an extraordinary amount of time, usually a thousand years or so, when it becomes truly obvious this creature is no longer a normal beast. They are amazingly long-lived and usually do not show any signs of aging. As animals, they may be indistinguishable from their common animal counterparts. However, they often have some kind of sign that alludes to their magical nature which accrued in them over the years. Suppon, for example, have hands with opposable thumbs, unlike regular turtles. Bakeneko are known to walk on two legs and have a split tail, unlike normal cats.</p>
+			<p class="indent">All hengeyokai gain the ability to change into a humanoid form. Usually, this form is pretty perfect to save some flaw that transferred from their animal form. For example, tanuki transformations tend to leave a fat bushy tail out by the coccyx. Mujina hair is often black and white striped even when they transform, which can be a big giveaway. Animals that become hengeyokai include raccoons, sparrows, turtles, cats, and badgers.</p>
+			<h4>History</h4>
+			<p>Hengeyokai are known to originate from ordinary animals. These animals exhibit extraordinary intelligence and lifespans before anyone realizes anything is amiss. It is believed they acquire this from being touched by the Spirit Realm at an early age, which starts their change. As they age, they acquire vast amounts of magic power in their body, which eventually culminates into the ability to change form. Using this ability, hengeyokai have gained a reputation as tricksters and conmen, which makes it harder to call them endearing. Some hengeyokai bear a grudge from their younger days and go to enact revenge. Most people show distrust of them like any shapeshifter.</p>
+			<h4>Society</h4>
+			<p>Hengeyokai society can differ on the subrace. In general, however, most interact with humans on a mainly superficial level, using them as entertainment and examples of stupidity and naivety. Most keep their societies at an arm's length from humans, while others are more secretive and isolated. Hengeyokai sometimes mean well and can aid humans as callers of omen who warn of disaster, due to a hengeyokai's connection with the spirits. They usually are said to be in opposition to humans due to their feeling of superiority from their affinity magic, however.</p>
+			<h4>Hengeyokai Names</h4>
+			<p>Hengeyokai usually follow the naming conventions of nearby human societies, particularly that of oriental tradition.</p>
+			<ul class="unstyled">
+				<li><strong>Male Names:</strong> Shouta, Hengemaru, Touya</li>
+				<li><strong>Female Names:</strong> Kiriko, Hime-Sama, Ruri</li>
+				<li><strong>Clan Names:</strong> Balderk, Battlehammer, Brawnanvil, Dankil, Fireforge, Frostbeard, Gorunn, Holderhek, Ironfist, Loderr, Lutgehr, Rumnaheim, Strakeln, Torunn, Ungart</li>
+			</ul>
+			<h4>Hengeyokai Traits</h4>
+			<p>Animals of longevity and shapeshifting.</p>			
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 2.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Hengeyokai reach maturity at 12 months. The exact length of their lifespans vary but records show that the oldest kitsune to date was 623.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Hengeyokai tend to be chaotic due to their wild nature. Whether they are evil or good depends on individual hengeyokai.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Hengeyokai often appear like regular animals. Your size is Tiny.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> While a human you have a base walking speed of 30 feet.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Change Form.</em></strong> As an action, you may polymorph into a human as per the polymorph spell and back into your true form as a bonus action. If you are reduced to 0 hit points in this form you revert back into your true form. Any damage you take in your changed form is transferred over to your own hit points.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write in Common and Sylvan.</p>
+			<p class="indent"><strong><em>Subrace.</em></strong>  Choose from the Tanuki, Suzume, Suppon, Nekomata, and Mujina subraces.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Shouta, Hengemaru, Touya</set>
+			<set name="names" type="female">Kiriko, Hime-Sama, Ruri</set>
+			<set name="names" type="clan">Balderk, Battlehammer, Brawnanvil, Dankil, Fireforge, Frostbeard, Gorunn, Holderhek, Ironfist, Loderr, Lutgehr, Rumnaheim, Strakeln, Torunn, Ungart</set>
+			<set name="names-format">{{name}} {{clan}}</set>
+		</setters>
+		<rules>
+			<stat name="dexterity" value="2" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<stat name="innate speed:climb" value="20" bonus="base" />
+			<grant type="Size" id="ID_SIZE_TINY" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_SYLVAN" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HENGEYOKAI_CHANGE_FORM" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HENGEYOKAI_ANIMAL_COMMUNICATION"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HENGEYOKAI_SUBRACE" />
+		</rules>
+	</element>
+	<element name="Change Form" type="Racial Trait" source="Christo’s Handbook" id="ID_RACIAL_TRAIT_HENGEYOKAI_CHANGE_FORM">
+		<description>
+			<p>As an action, you may polymorph into a human as per the polymorph spell and back into your true form as a bonus action.</p>
+		</description>
+		<sheet>
+			<description>If you are reduced to 0 hit points in this form you revert back into your true form. Any damage you take in your changed form is transferred over to your own hit points.</description>
+		</sheet>
+	</element>
+
+	<element name="Animal Communication" type="Racial Trait" source="Christo’s Handbook" id="ID_RACIAL_TRAIT_HENGEYOKAI_ANIMAL_COMMUNICATION">
+		<description>
+			<p> While you are in animal or hybrid form, you can communicate with any natural or fey beasts that share your animal form or a form that is closely related (for example, a dog hengeyokai can communicate with a wolf). In human form, you can understand these beasts but cannot directly communicate with them. You can communicate simple concepts and commands to such creatures, but they are under no compulsion to obey you, and their knowledge is restricted by their experience and mobility. Beasts you talk to are not necessarily friendly; your DM may require skill checks to influence their attitude.</p>
+		</description>
+		<sheet>
+			<description> While you are in animal or hybrid form, you can communicate with any natural or fey beasts that share your animal form or a form that is closely related (for example, a dog hengeyokai can communicate with a wolf). In human form, you can understand these beasts but cannot directly communicate with them. You can communicate simple concepts and commands to such creatures, but they are under no compulsion to obey you, and their knowledge is restricted by their experience and mobility. Beasts you talk to are not necessarily friendly; your DM may require skill checks to influence their attitude.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ANIMALHANDLING" />
+		</rules>
+	</element>
+
+
+	<element name="Hengeyokai Subrace" type="Racial Trait" source="Christo’s Handbook" id="ID_RACIAL_TRAIT_HENGEYOKAI_SUBRACE">
+		<description>
+			<p>Choose from the Tanuki, Suzume, Suppon, Nekomata, and Mujina subraces.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<select type="Sub Race" name="Hengeyokai Subrace" supports="Hengeyokai" />
+		</rules>
+	</element>
+
+	<element name="Tanuki (Racoon Dog)" type="Sub Race" source="Christo’s Handbook" id="ID_SUB_RACE_TANUKI_HENGEYOKAI">
+		<supports>Tanuki</supports>
+		<description>
+			<p>Tanuki are raccoons that live in clans in the forest and elect a leader called the "Great Tanuki" to oversee the clan's land and organize its members. While the most jovial of the hengeyokai, they are also the most vicious. Elections for the overseer position often break down into faction conflict between rival families, which usually end with one family is completely eliminated. However, when not at war, tanuki enjoy drinking, playing pranks on humans and, in general, having a good time.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 1.</p>
+			<p class="indent"><strong><em>Clan's Warrior.</em></strong> Tanuki clans train to fight like their human neighbors. You have proficiency with the pike and shortbow.</p>
+			<p class="indent"><strong><em>Natural Instinct.</em></strong> When in forest terrain, you have advantage in Wisdom (Survival) and Intelligence (Nature) checks.</p>
+		</description>
+		<sheet display="false"/>
+		<setters>
+			<set name="height" modifier="1d8">10"</set>
+			<set name="weight" modifier="1d8">6 lb.</set>
+		</setters>
+		<rules>
+			<stat name="charisma" value="1" />
+			<stat name="intelligence" value="1" />
+			<stat name="perception:passive" value="13" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HENGEYOKAI_CLANS_WARRIOR" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HENGEYOKAI_NATURAL_INSTINCT" />
+		</rules>
+	</element>
+
+	<element name="Clan's Warrior" type="Racial Trait" source="Christo’s Handbook" id="ID_RACIAL_TRAIT_HENGEYOKAI_CLANS_WARRIOR">
+		<description>
+			<p>You have proficiency with the pike and shortbow.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency with the pike and shortbow.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED_WEAPONS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_MELEE_WEAPONS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+		</rules>
+	</element>
+
+	<element name="Natural Instinct" type="Racial Trait" source="Christo’s Handbook" id="ID_RACIAL_TRAIT_HENGEYOKAI_NATURAL_INSTINCT">
+		<description>
+			<p>When in forest terrain, you have advantage in Wisdom (Survival) and Intelligence (Nature) checks</p>
+		</description>
+		<sheet display="false">
+			<description>When in forest terrain, you have advantage in Wisdom (Survival) and Intelligence (Nature) checks</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_NATURE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+		</rules>
+	</element>
+
+
+</elements>
