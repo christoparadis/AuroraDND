@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Hengeyokai</name>
+		<name>Hengeyokai - Tanuki</name>
 		<author url="">Wizards of the Christo</author>
 		        <author url="https://www.genfantasypress.com/about-the-compendium">Genuine Free Press</author>
         <update version="0.0.1">
@@ -44,17 +44,24 @@
 			<set name="names" type="female">Kiriko, Hime-Sama, Ruri</set>
 			<set name="names" type="clan">Balderk, Battlehammer, Brawnanvil, Dankil, Fireforge, Frostbeard, Gorunn, Holderhek, Ironfist, Loderr, Lutgehr, Rumnaheim, Strakeln, Torunn, Ungart</set>
 			<set name="names-format">{{name}} {{clan}}</set>
+			<set name="height" modifier="1d8">10"</set>
+			<set name="weight" modifier="1d8">6 lb.</set>
 		</setters>
 		<rules>
 			<stat name="dexterity" value="2" />
 			<stat name="innate speed" value="30" bonus="base" />
 			<stat name="innate speed:climb" value="20" bonus="base" />
+			<stat name="charisma" value="1" />
+			<stat name="intelligence" value="1" />
+			<stat name="perception:passive" value="13" />
 			<grant type="Size" id="ID_SIZE_TINY" />
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
 			<grant type="Language" id="ID_LANGUAGE_SYLVAN" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HENGEYOKAI_CHANGE_FORM" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HENGEYOKAI_ANIMAL_COMMUNICATION"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HENGEYOKAI_CLANS_WARRIOR" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HENGEYOKAI_NATURAL_INSTINCT" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HENGEYOKAI_SUBRACE" />
 		</rules>
 	</element>
